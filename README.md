@@ -10,6 +10,8 @@
 
 <p align="center">
   <a href="https://finger.cflyp.com"><strong>🌐 Live Demo / 在线体验 »</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/guansg/CflyPrism-FingerprintTest/discussions"><strong>💬 Discussions / 讨论区</strong></a>
 </p>
 
 ---
