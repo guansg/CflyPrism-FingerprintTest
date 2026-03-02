@@ -1,26 +1,29 @@
 # CflyPrism Fingerprint Test
 
 <p align="center">
-  <strong>浏览器指纹检测与验证工具</strong>
+  <strong>Browser Fingerprint Detection & Verification Tool</strong>
 </p>
 
 <p align="center">
-  一款专业的浏览器指纹检测工具，帮助用户了解和验证浏览器指纹配置，检测隐私泄露风险。
+  A professional browser fingerprint detection tool to help users understand and verify browser fingerprint configurations and detect privacy leakage risks.
 </p>
 
 <p align="center">
-  <a href="https://finger.cflyp.com"><strong>🌐 在线体验 »</strong></a>
+  <a href="https://finger.cflyp.com"><strong>🌐 Live Demo »</strong></a>
 </p>
 
 <p align="center">
-  <a href="#功能特性">功能特性</a> •
-  <a href="#检测项目">检测项目</a> •
-  <a href="#快速开始">快速开始</a> •
-  <a href="#技术栈">技术栈</a> •
-  <a href="#部署">部署</a>
+  <a href="#features">Features</a> •
+  <a href="#detection-items">Detection Items</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#deployment">Deployment</a>
 </p>
 
 ---
+
+<details>
+<summary>🇨🇳 中文说明 (Click to expand)</summary>
 
 ## 功能特性
 
@@ -30,7 +33,6 @@
 - **指纹对比** - 对比不同时间或配置的指纹差异，精准定位变化项
 - **数据导出** - 支持 JSON / CSV 格式导出，便于分析和存档
 - **多语言支持** - 支持中文、English、日本語、Español
-- **SEO 优化** - 多语言 URL 路由，良好的搜索引擎支持
 
 ## 检测项目
 
@@ -82,68 +84,131 @@
 3. 再次进行检测
 4. 点击「对比」按钮查看差异报告
 
-## 快速开始
+</details>
 
-### 环境要求
+---
+
+## Features
+
+- **Comprehensive Detection** - Supports 17+ browser fingerprint detection items covering hardware, software, network, and more
+- **Consistency Check** - Automatically detects User-Agent and UA Data consistency to identify configuration anomalies
+- **History Records** - Local storage of detection records for easy review
+- **Fingerprint Comparison** - Compare fingerprint differences across time or configurations to pinpoint changes
+- **Data Export** - Export in JSON / CSV formats for analysis and archiving
+- **Multi-language Support** - Supports Chinese, English, Japanese, Spanish
+
+## Detection Items
+
+| Category | Item | Description |
+|----------|------|-------------|
+| **Basic** | Navigator | Browser info, User-Agent, platform, etc. |
+| | Screen | Resolution, color depth, pixel ratio |
+| | Viewport | Viewport size, scrollbar info |
+| | Timezone | Timezone information |
+| | UI Language | Browser interface language |
+| **Hardware** | Canvas | Canvas 2D fingerprint |
+| | WebGL | WebGL renderer, vendor, parameters |
+| | WebGPU | WebGPU adapter information |
+| | Audio | AudioContext fingerprint |
+| | Fonts | Installed fonts detection |
+| | CPU/Memory | Processor cores, memory info |
+| **Network** | WebRTC | WebRTC local IP leak detection |
+| | Media Devices | Camera, microphone device info |
+| | Geolocation | Geographic location |
+| **Anti-Detection** | Automation | Automation tool detection (Selenium, Puppeteer, etc.) |
+| | Permissions | Browser permission status |
+| | ClientRects | DOM element size calculation differences |
+| | Speech Voices | Speech synthesis engine list |
+
+## Fingerprint Comparison
+
+The comparison feature is one of the core features of this tool, helping users accurately identify fingerprint changes.
+
+### Use Cases
+
+- **Verify Fingerprint Spoofing** - After modifying browser fingerprint settings, compare before and after to confirm changes
+- **Detect Fingerprint Leaks** - Compare fingerprints at different times to discover unexpected changes
+- **Debug Anti-Fingerprint Solutions** - Quickly locate which fingerprint items are not properly covered
+
+### How It Works
+
+1. **Auto Compare** - Automatically compares current detection results with the previous one
+2. **Difference Highlighting** - Changed items are marked with different colors:
+   - 🟡 **Changed** - Value has changed
+   - 🟢 **Added** - Newly detected property
+   - 🔴 **Removed** - Property no longer exists
+3. **Filter Mode** - Switch between "Changes Only" or "All" views
+4. **Detailed Display** - Side-by-side display of "Previous" and "Current" values
+
+### Usage
+
+1. Perform a fingerprint detection as baseline
+2. Modify browser configuration or switch fingerprint profile
+3. Run detection again
+4. Click "Compare" button to view the difference report
+
+## Getting Started
+
+### Requirements
 
 - Node.js >= 18
 - npm / yarn / pnpm
 
-### 安装依赖
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 开发模式
+### Development
 
 ```bash
 npm run dev
 ```
 
-### 构建生产版本
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-构建产物位于 `dist/` 目录。
+Output will be in the `dist/` directory.
 
-### 预览生产版本
+### Preview Production Build
 
 ```bash
 npm run preview
 ```
 
-## 技术栈
+## Tech Stack
 
-- **框架**: React 18 + TypeScript
-- **构建工具**: Vite 5
-- **样式**: Tailwind CSS
-- **状态管理**: Zustand
-- **路由**: React Router v6
-- **国际化**: react-i18next
-- **图标**: Lucide React
+- **Framework**: React 18 + TypeScript
+- **Build Tool**: Vite 5
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **Routing**: React Router v6
+- **i18n**: react-i18next
+- **Icons**: Lucide React
 
-## 部署
+## Deployment
 
-支持部署到任意静态托管服务：
+Supports deployment to any static hosting service:
 
-- **Vercel** - 推荐，零配置部署
-- **Netlify** - 支持自动部署
-- **GitHub Pages** - 需配置 base path
-- **Cloudflare Pages** - 全球 CDN 加速
+- **Vercel** - Recommended, zero-config deployment
+- **Netlify** - Auto deployment support
+- **GitHub Pages** - Requires base path configuration
+- **Cloudflare Pages** - Global CDN acceleration
 
-### 环境变量
+### Environment Variables
 
-复制 `.env.example` 为 `.env` 并配置：
+Copy `.env.example` to `.env` and configure:
 
 ```bash
-# 后端 API 地址（可选）
+# Backend API URL (optional)
 VITE_API_BASE_URL=
 ```
 
-## 许可证
+## License
 
 [MIT License](LICENSE)
 
