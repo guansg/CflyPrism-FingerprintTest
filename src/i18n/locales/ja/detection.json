@@ -1,0 +1,73 @@
+{
+  "detectionOptions": {
+    "title": "検出オプション",
+    "expand": "検出オプションを展開",
+    "collapse": "サイドバーを折りたたむ",
+    "recommended": "推奨設定",
+    "quick": "クイック検出",
+    "selectAll": "すべて選択",
+    "selectNone": "すべて解除",
+    "requiresPermission": "権限が必要",
+    "groups": {
+      "basic": "基本フィンガープリント",
+      "hardware": "ハードウェア情報",
+      "canvas": "Canvas",
+      "webgl": "WebGL",
+      "audio": "Audio",
+      "networkLayer": "ネットワーク層",
+      "antiDetection": "検出対策"
+    },
+    "items": {
+      "navigator": "ブラウザ情報",
+      "screen": "画面",
+      "viewport": "ビューポート",
+      "timezone": "タイムゾーン",
+      "canvas": "Canvas キャンバス",
+      "webgl": "WebGL グラフィック",
+      "webgpu": "WebGPU グラフィック",
+      "audio": "オーディオ",
+      "fonts": "フォント",
+      "mediaDevices": "メディアデバイス",
+      "speechVoices": "音声合成",
+      "webrtc": "WebRTC",
+      "geolocation": "位置情報",
+      "permissions": "権限",
+      "clientRects": "クライアント矩形",
+      "automation": "自動化検出",
+      "uiLanguage": "UI 言語"
+    }
+  },
+  "fingerprint": {
+    "consistencyCheck": "一貫性チェック",
+    "viewport": "ビューポートフィンガープリント",
+    "innerSize": "内部サイズ",
+    "outerSize": "外部サイズ",
+    "clientSize": "クライアントサイズ",
+    "zoomInfo": "ズーム情報",
+    "zoom": "ズーム",
+    "zoomDetectFailed": "検出できません",
+    "dpr": "デバイスピクセル比"
+  },
+  "cards": {
+    "navigator": "ブラウザフィンガープリント",
+    "screen": "画面フィンガープリント",
+    "canvas": "Canvas フィンガープリント",
+    "webgl": "WebGL フィンガープリント",
+    "webgpu": "WebGPU フィンガープリント",
+    "audio": "オーディオフィンガープリント",
+    "fonts": "フォントフィンガープリント",
+    "mediaDevices": "メディアデバイスフィンガープリント",
+    "webrtc": "WebRTC フィンガープリント",
+    "timezone": "タイムゾーンフィンガープリント",
+    "geolocation": "位置情報フィンガープリント",
+    "permissions": "権限フィンガープリント",
+    "clientRects": "クライアント矩形フィンガープリント",
+    "speechVoices": "音声合成フィンガープリント",
+    "automation": "自動化検出フィンガープリント",
+    "uiLanguage": "UI 言語フィンガープリント",
+    "cpu": "CPU",
+    "memory": "メモリ",
+    "memoryNote": "ブラウザはプライバシー保護のため不正確な値を返します（最も近い2の累乗に切り捨て、通常2-32GBの範囲に制限）",
+    "dnt": "Do Not Track"
+  }
+}

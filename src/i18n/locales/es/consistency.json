@@ -1,0 +1,32 @@
+{
+  "consistency": {
+    "userAgentVersion": "Consistencia de Versión del Agente de Usuario",
+    "screenViewportWidth": "Consistencia de Ancho de Pantalla/Vista",
+    "screenViewportHeight": "Consistencia de Alto de Pantalla/Vista",
+    "browserZoom": "Nivel de Zoom del Navegador",
+    "languageConsistency": "Consistencia de Idioma",
+    "screenAvailArea": "Razonabilidad del Área Disponible de Pantalla",
+    "colorPixelDepth": "Consistencia de Profundidad de Color/Profundidad de Píxel",
+    "automationDetection": "Detección de Automatización",
+    "geolocationPermission": "Consistencia de Permiso de Geolocalización",
+    "doNotTrack": "Consistencia de No Rastrear",
+    "messages": {
+      "userAgentVersion": "Agente de Usuario: {{uaVersion}}, Datos UA: {{uaDataVersion}}",
+      "screenViewportWidth": "Pantalla: {{screenWidth}}px (CSS: {{screenWidthCSS}}px), Vista: {{viewportWidth}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "screenViewportHeight": "Pantalla: {{screenHeight}}px (CSS: {{screenHeightCSS}}px), Vista: {{viewportHeight}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "browserZoom": "{{zoomLabel}}: {{zoom}}%, {{dprLabel}}: {{dpr}}",
+      "languageConsistency": "Idioma: {{language}}, Primer elemento de lista: {{firstLang}}",
+      "screenAvailArea": "Ancho: {{width}}/{{availWidth}}, Alto: {{height}}/{{availHeight}}",
+      "colorPixelDepth": "Profundidad de Color: {{colorDepth}}, Profundidad de Píxel: {{pixelDepth}}",
+      "automationDetected": "Se detectaron identificadores de automatización",
+      "automationNotDetected": "No se detectaron identificadores de automatización",
+      "geolocationPermission": "Geolocalización: {{geolocStatus}}, API de Permisos: {{permStatus}}",
+      "doNotTrack": "Navegador: {{navigatorDNT}}, Red: {{networkDNT}}"
+    },
+    "labels": {
+      "diff": "Diferencia",
+      "zoom": "Nivel de Zoom",
+      "dpr": "Relación de Píxeles del Dispositivo"
+    }
+  }
+}

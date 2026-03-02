@@ -1,0 +1,73 @@
+{
+  "detectionOptions": {
+    "title": "Detection Options",
+    "expand": "Expand Detection Options",
+    "collapse": "Collapse Sidebar",
+    "recommended": "Recommended",
+    "quick": "Quick Detection",
+    "selectAll": "Select All",
+    "selectNone": "Select None",
+    "requiresPermission": "Requires Permission",
+    "groups": {
+      "basic": "Basic Fingerprint",
+      "hardware": "Hardware Info",
+      "canvas": "Canvas",
+      "webgl": "WebGL",
+      "audio": "Audio",
+      "networkLayer": "Network Layer",
+      "antiDetection": "Anti-Detection"
+    },
+    "items": {
+      "navigator": "Navigator",
+      "screen": "Screen",
+      "viewport": "Viewport",
+      "timezone": "Timezone",
+      "canvas": "Canvas",
+      "webgl": "WebGL",
+      "webgpu": "WebGPU",
+      "audio": "Audio",
+      "fonts": "Fonts",
+      "mediaDevices": "MediaDevices",
+      "speechVoices": "SpeechVoices",
+      "webrtc": "WebRTC",
+      "geolocation": "Geolocation",
+      "permissions": "Permissions",
+      "clientRects": "ClientRects",
+      "automation": "Automation",
+      "uiLanguage": "UI Language"
+    }
+  },
+  "fingerprint": {
+    "consistencyCheck": "Consistency Check",
+    "viewport": "Viewport Fingerprint",
+    "innerSize": "Inner Size",
+    "outerSize": "Outer Size",
+    "clientSize": "Client Size",
+    "zoomInfo": "Zoom Info",
+    "zoom": "Zoom",
+    "zoomDetectFailed": "Unable to detect",
+    "dpr": "DPR"
+  },
+  "cards": {
+    "navigator": "Navigator Fingerprint",
+    "screen": "Screen Fingerprint",
+    "canvas": "Canvas Fingerprint",
+    "webgl": "WebGL Fingerprint",
+    "webgpu": "WebGPU Fingerprint",
+    "audio": "Audio Fingerprint",
+    "fonts": "Fonts Fingerprint",
+    "mediaDevices": "MediaDevices Fingerprint",
+    "webrtc": "WebRTC Fingerprint",
+    "timezone": "Timezone Fingerprint",
+    "geolocation": "Geolocation Fingerprint",
+    "permissions": "Permissions Fingerprint",
+    "clientRects": "ClientRects Fingerprint",
+    "speechVoices": "SpeechVoices Fingerprint",
+    "automation": "Automation Fingerprint",
+    "uiLanguage": "UI Language Fingerprint",
+    "cpu": "CPU",
+    "memory": "Memory",
+    "memoryNote": "Browsers return imprecise values for privacy (rounded down to the nearest power of 2, typically limited to 2-32GB range)",
+    "dnt": "Do Not Track"
+  }
+}

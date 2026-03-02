@@ -1,0 +1,288 @@
+{
+  "tcp": {
+    "tcpLayerInfo": "Información de Capa TCP",
+    "unavailable": "La información de huella digital TCP no está disponible (se requiere servicio backend con solicitudes activas)"
+  },
+  "plugins": {
+    "pluginList": "Lista de Plugins",
+    "pluginCount": "Total {{count}} plugins",
+    "filename": "Archivo",
+    "mimeTypeCount": "Cantidad de Tipos MIME",
+    "noPlugins": "No se detectaron plugins",
+    "mimeTypeList": "Lista de Tipos MIME",
+    "mimeTypeCountText": "Total {{count}} tipos MIME",
+    "noDescription": "Sin descripción",
+    "suffixes": "Sufijos",
+    "plugin": "Plugin",
+    "noMimeTypes": "No se detectaron tipos MIME"
+  },
+  "network": {
+    "clientInfo": "Información del Lado del Navegador",
+    "serverInfo": "Información de Red del Lado del Servidor",
+    "tcpFingerprint": "Huella Digital TCP",
+    "serverInfoUnavailable": "No se puede obtener información del servidor (se requiere servicio backend)",
+    "connectionInfo": "Información de Conexión",
+    "effectiveType": "Tipo de Conexión Efectiva",
+    "downlink": "Ancho de Banda Descendente",
+    "rtt": "Latencia de Ida y Vuelta",
+    "saveData": "Modo de Ahorro de Datos",
+    "clientIP": "IP del Cliente",
+    "httpVersion": "Versión de HTTP",
+    "tlsVersion": "Versión de TLS",
+    "tlsCipherSuite": "Suite de Cifrado TLS",
+    "tlsFingerprint": "Huella Digital TLS",
+    "cipherSuites": "Suites de Cifrado",
+    "extensions": "Extensiones",
+    "alpnProtocols": "Protocolos ALPN",
+    "windowSize": "Tamaño de Ventana",
+    "mss": "Tamaño Máximo de Segmento (MSS)",
+    "windowScale": "Factor de Escala de Ventana",
+    "ttl": "Tiempo de Vida (TTL)",
+    "timestamp": "Opción de Marca de Tiempo",
+    "timestampValue": "Valor de Marca de Tiempo (TS val)",
+    "timestampEcr": "Eco de Marca de Tiempo (TS ecr)",
+    "sack": "Confirmación Selectiva (SACK)",
+    "tcpFlags": "Banderas TCP",
+    "optionsOrder": "Orden de Opciones TCP",
+    "initialSeq": "Número de Secuencia Inicial",
+    "ipLayerInfo": "Información de Capa IP",
+    "ipId": "Identificador IP",
+    "tos": "Tipo de Servicio (TOS)",
+    "ipFlags": "Banderas IP",
+    "df": "No Fragmentar (DF)",
+    "ipLength": "Longitud del Paquete IP",
+    "tcpFingerprintString": "Cadena de Huella Digital",
+    "fingerprint": "Huella Digital"
+  },
+  "http": {
+    "http2": "HTTP/2",
+    "supported": "Soportado",
+    "clientHeaders": "Encabezados del Lado del Navegador",
+    "serverHeaders": "Encabezados del Lado del Servidor",
+    "serverHeadersUnavailable": "No se pueden obtener encabezados del servidor (se requiere servicio backend)",
+    "headers": {
+      "acceptLanguage": "Idioma Aceptado",
+      "acceptEncoding": "Codificación Aceptada",
+      "userAgent": "Agente de Usuario",
+      "secChUa": "Indicación de Cliente UA",
+      "secChUaPlatform": "Indicación de Cliente Plataforma",
+      "secChUaMobile": "Indicación de Cliente Móvil",
+      "secFetchSite": "Sitio de Obtención",
+      "secFetchMode": "Modo de Obtención",
+      "secFetchUser": "Usuario de Obtención",
+      "secFetchDest": "Destino de Obtención",
+      "referer": "Página de Origen",
+      "origin": "Dominio de Origen",
+      "xForwardedFor": "IP Reenviada",
+      "xRealIP": "IP Real"
+    }
+  },
+  "mediaDevices": {
+    "deviceCount": "Cantidad de Dispositivos Detectados",
+    "permissionStatus": "Estado del Permiso",
+    "permissionNotRequested": "Permiso No Solicitado",
+    "permissionGranted": "Permiso Otorgado",
+    "permissionDenied": "Permiso Denegado",
+    "permissionDeniedTip": "Consejo: Cuando se deniega el permiso, la lista de dispositivos puede estar vacía o incompleta",
+    "deviceList": "Lista de Dispositivos",
+    "deviceLabel": "Dispositivo {{index}}",
+    "type": "Tipo",
+    "id": "ID",
+    "noPermission": "Sin Permiso"
+  },
+  "webrtc": {
+    "totalIPs": "Total de IPs Detectadas",
+    "publicIPCount": "Cantidad de IP Pública",
+    "privateIPCount": "Cantidad de IP Privada",
+    "linkLocalIPCount": "Cantidad de IP Local de Enlace",
+    "publicIPLeak": "Detección de Fuga de IP Pública",
+    "publicIPLeakMessage": "Se detectó(n) {{count}} dirección(es) IP pública(s), lo que expone su IP real",
+    "leakedPublicIP": "IP Pública Filtrada",
+    "ipDetails": "Detalles de Dirección IP",
+    "noIPLeak": "No se detectó fuga de IP (WebRTC puede estar deshabilitado o la conexión no se activó)",
+    "publicIP": "IP Pública",
+    "privateIP": "IP Privada",
+    "linkLocal": "Local de Enlace",
+    "loopback": "Bucle Local"
+  },
+  "browserInfo": {
+    "product": "Producto",
+    "appCodeName": "Código de Aplicación",
+    "appName": "Nombre de Aplicación",
+    "appVersion": "Versión de Aplicación",
+    "productSub": "Sub-versión del Producto",
+    "vendor": "Proveedor",
+    "vendorSub": "Sub-versión del Proveedor",
+    "warning": "⚠️ Nota: Estas propiedades generalmente se usan para la identificación del navegador. Los navegadores modernos pueden devolver valores estandarizados. Algunos navegadores anti-huellas digitales pueden modificar estos valores."
+  },
+  "uiLanguage": {
+    "locale": "Configuración Regional",
+    "dateTimeLocale": "Configuración Regional de Fecha y Hora",
+    "numberLocale": "Configuración Regional de Números",
+    "collatorLocale": "Configuración Regional de Ordenamiento",
+    "relativeTimeLocale": "Configuración Regional de Tiempo Relativo",
+    "tip": "💡 Consejo: El idioma de UI generalmente refleja la configuración de idioma de la interfaz del navegador, detectable a través de la API Intl. Si estos valores son inconsistentes, puede indicar una configuración anormal del navegador."
+  },
+  "permissions": {
+    "geolocation": "Geolocalización",
+    "notifications": "Notificaciones",
+    "camera": "Cámara",
+    "microphone": "Micrófono",
+    "clipboardRead": "Lectura del Portapapeles",
+    "clipboardWrite": "Escritura del Portapapeles",
+    "status": {
+      "granted": "Otorgado",
+      "denied": "Denegado",
+      "prompt": "Esperando Consulta",
+      "unknown": "Desconocido"
+    }
+  },
+  "geolocation": {
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "accuracy": "Precisión",
+    "permissionStatus": "Estado del Permiso"
+  },
+  "automation": {
+    "detectionStatus": "Estado de Detección",
+    "detected": "Automatización Detectada",
+    "clean": "Normal",
+    "webdriver": "navigator.webdriver",
+    "chromeRuntime": "window.chrome.runtime",
+    "hasAutomationFlag": "Tiene Identificador de Automatización",
+    "hasChromeAutomation": "Tiene Automatización de Chrome",
+    "otherFlags": "Otros Identificadores"
+  },
+  "clientRects": {
+    "hash": "Valor Hash",
+    "rectsCount": "Cantidad de Rectángulos",
+    "rectsDetails": "Detalles de Rectángulos",
+    "rectLabel": "Rectángulo {{index}}"
+  },
+  "speechVoices": {
+    "count": "Cantidad",
+    "voicesList": "Lista de Voces",
+    "default": "(Predeterminado)",
+    "local": "Local"
+  },
+  "webgpu": {
+    "available": "Disponible",
+    "adapterInfo": "Información del Adaptador",
+    "vendor": "Proveedor",
+    "architecture": "Arquitectura",
+    "device": "Dispositivo",
+    "description": "Descripción",
+    "features": "Características"
+  },
+  "canvas": {
+    "hash": "Valor Hash",
+    "imagePreview": "Vista Previa de Imagen Canvas"
+  },
+  "fonts": {
+    "fontCount": "Cantidad de Fuentes Detectadas",
+    "fontList": "Lista de Fuentes",
+    "libraryOnly": "Solo muestra fuentes de la biblioteca de detección (si están instaladas). No son todas las fuentes instaladas en su dispositivo"
+  },
+  "webgl": {
+    "vendor": "Proveedor",
+    "renderer": "Renderizador",
+    "version": "Versión",
+    "shadingLanguageVersion": "Versión del Lenguaje de Sombreado",
+    "hash": "Valor Hash",
+    "extensionsCount": "Cantidad de Extensiones",
+    "parameters": "Parámetros",
+    "imagePreview": "Vista Previa de Imagen WebGL"
+  },
+  "navigator": {
+    "userAgent": "Agente de Usuario",
+    "platform": "Plataforma",
+    "language": "Idioma",
+    "languages": "Lista de Idiomas",
+    "vendor": "Proveedor",
+    "hardwareConcurrency": "Concurrencia de Hardware",
+    "deviceMemory": "Memoria del Dispositivo",
+    "maxTouchPoints": "Puntos Táctiles Máximos",
+    "cookieEnabled": "Cookies Habilitadas",
+    "doNotTrack": "No Rastrear",
+    "userAgentData": "Datos del Agente de Usuario",
+    "mobile": "Dispositivo Móvil",
+    "brands": "Marcas del Navegador",
+    "highEntropyValues": "Valores de Alta Entropía",
+    "architecture": "Arquitectura",
+    "bitness": "Bits",
+    "platformVersion": "Versión de Plataforma",
+    "isWow64": "Modo WOW64",
+    "formFactors": "Factores de Forma",
+    "model": "Modelo",
+    "fullVersionList": "Lista Completa de Versiones"
+  },
+  "screen": {
+    "width": "Ancho",
+    "height": "Alto",
+    "availWidth": "Ancho Disponible",
+    "availHeight": "Alto Disponible",
+    "colorDepth": "Profundidad de Color",
+    "pixelDepth": "Profundidad de Píxel",
+    "devicePixelRatio": "Relación de Píxeles del Dispositivo"
+  },
+  "audio": {
+    "hash": "Valor Hash",
+    "contextId": "ID de Contexto"
+  },
+  "timezone": {
+    "timezone": "Zona Horaria",
+    "offset": "Desplazamiento"
+  },
+  "math": {
+    "hash": "Valor Hash",
+    "values": "Valores de Cálculo",
+    "tip": "💡 Consejo: Diferentes navegadores/sistemas operativos tienen pequeñas diferencias en las implementaciones de funciones matemáticas, que pueden usarse para generar huellas digitales."
+  },
+  "fontPreferences": {
+    "hash": "Valor Hash",
+    "sizes": "Tamaños de Fuente",
+    "default": "Predeterminado",
+    "apple": "Sistema Apple",
+    "serif": "Serif",
+    "sans": "Sans-Serif",
+    "mono": "Monoespaciada",
+    "min": "Fuente Mínima",
+    "system": "UI del Sistema"
+  },
+  "touchSupport": {
+    "maxTouchPoints": "Puntos Táctiles Máximos",
+    "touchEvent": "Soporte de TouchEvent",
+    "touchStart": "Soporte de ontouchstart"
+  },
+  "vendorFlavors": {
+    "flavors": "Objetos Específicos del Navegador",
+    "tip": "💡 Consejo: Diferentes navegadores tienen diferentes objetos globales, que pueden usarse para identificar tipos de navegador."
+  },
+  "colorGamut": {
+    "colorGamut": "Gama de Colores Soportada",
+    "srgb": "sRGB (Estándar)",
+    "p3": "P3 (Gama Amplia)",
+    "rec2020": "Rec.2020 (Gama Ultra Amplia)",
+    "none": "No detectado"
+  },
+  "architecture": {
+    "value": "Valor de Detección",
+    "architecture": "Arquitectura Inferida",
+    "x86": "x86/x86-64",
+    "arm": "ARM",
+    "unknown": "Desconocido"
+  },
+  "screenFrame": {
+    "systemFrame": "Marco del Sistema",
+    "browserFrame": "Marco del Navegador",
+    "frameTop": "Marco Superior",
+    "frameLeft": "Marco Izquierdo",
+    "frameBottom": "Marco Inferior",
+    "frameRight": "Marco Derecho",
+    "windowPosition": "Posición de la Ventana",
+    "screenX": "Pantalla X",
+    "screenY": "Pantalla Y",
+    "browserFrameWidth": "Ancho del Marco del Navegador",
+    "browserFrameHeight": "Alto del Marco del Navegador"
+  }
+}

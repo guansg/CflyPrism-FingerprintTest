@@ -1,0 +1,14 @@
+{
+  "seo": {
+    "home": {
+      "title": "CflyPrism Fingerprint Verification Tool - Browser Fingerprint Detection",
+      "description": "Professional browser fingerprint detection and verification tool supporting multi-dimensional fingerprint detection including Canvas, WebGL, Audio, Fonts, Network and more",
+      "keywords": "browser fingerprint,fingerprint detection,fingerprint verification,Canvas fingerprint,WebGL fingerprint,Audio fingerprint,font fingerprint,network fingerprint,privacy protection"
+    },
+    "history": {
+      "title": "History - CflyPrism Fingerprint Verification Tool",
+      "description": "View previous browser fingerprint detection results and history",
+      "keywords": "fingerprint history,detection history,history records,fingerprint data"
+    }
+  }
+}

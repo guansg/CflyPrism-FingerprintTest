@@ -1,0 +1,32 @@
+{
+  "consistency": {
+    "userAgentVersion": "User-Agent Version Consistency",
+    "screenViewportWidth": "Screen/Viewport Width Consistency",
+    "screenViewportHeight": "Screen/Viewport Height Consistency",
+    "browserZoom": "Browser Zoom Level",
+    "languageConsistency": "Language/Languages Consistency",
+    "screenAvailArea": "Screen Available Area Reasonableness",
+    "colorPixelDepth": "Color Depth/Pixel Depth Consistency",
+    "automationDetection": "Automation Detection",
+    "geolocationPermission": "Geolocation Permission Consistency",
+    "doNotTrack": "DoNotTrack Consistency",
+    "messages": {
+      "userAgentVersion": "UA: {{uaVersion}}, UA Data: {{uaDataVersion}}",
+      "screenViewportWidth": "Screen: {{screenWidth}}px (CSS: {{screenWidthCSS}}px), Viewport: {{viewportWidth}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "screenViewportHeight": "Screen: {{screenHeight}}px (CSS: {{screenHeightCSS}}px), Viewport: {{viewportHeight}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "browserZoom": "{{zoomLabel}}: {{zoom}}%, {{dprLabel}}: {{dpr}}",
+      "languageConsistency": "Language: {{language}}, Languages[0]: {{firstLang}}",
+      "screenAvailArea": "Width: {{width}}/{{availWidth}}, Height: {{height}}/{{availHeight}}",
+      "colorPixelDepth": "ColorDepth: {{colorDepth}}, PixelDepth: {{pixelDepth}}",
+      "automationDetected": "Automation flags detected",
+      "automationNotDetected": "No automation flags detected",
+      "geolocationPermission": "Geolocation: {{geolocStatus}}, Permissions API: {{permStatus}}",
+      "doNotTrack": "Navigator: {{navigatorDNT}}, Network: {{networkDNT}}"
+    },
+    "labels": {
+      "diff": "diff",
+      "zoom": "Zoom level",
+      "dpr": "Device Pixel Ratio"
+    }
+  }
+}

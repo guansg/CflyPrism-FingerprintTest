@@ -1,0 +1,73 @@
+{
+  "detectionOptions": {
+    "title": "检测选项",
+    "expand": "展开检测选项",
+    "collapse": "折叠侧边栏",
+    "recommended": "推荐配置",
+    "quick": "快速检测",
+    "selectAll": "全选",
+    "selectNone": "全不选",
+    "requiresPermission": "需权限",
+    "groups": {
+      "basic": "基础指纹",
+      "hardware": "硬件信息",
+      "canvas": "Canvas",
+      "webgl": "WebGL",
+      "audio": "Audio",
+      "networkLayer": "网络层",
+      "antiDetection": "反检测"
+    },
+    "items": {
+      "navigator": "浏览器信息",
+      "screen": "屏幕",
+      "viewport": "视口",
+      "timezone": "时区",
+      "canvas": "Canvas 画布",
+      "webgl": "WebGL 图形",
+      "webgpu": "WebGPU 图形",
+      "audio": "音频",
+      "fonts": "字体",
+      "mediaDevices": "媒体设备",
+      "speechVoices": "语音合成",
+      "webrtc": "WebRTC",
+      "geolocation": "地理位置",
+      "permissions": "权限",
+      "clientRects": "客户端矩形",
+      "automation": "自动化检测",
+      "uiLanguage": "界面语言"
+    }
+  },
+  "fingerprint": {
+    "consistencyCheck": "一致性检查",
+    "viewport": "视口指纹",
+    "innerSize": "内部尺寸",
+    "outerSize": "外部尺寸",
+    "clientSize": "客户端尺寸",
+    "zoomInfo": "缩放信息",
+    "zoom": "缩放",
+    "zoomDetectFailed": "无法检测",
+    "dpr": "设备像素比"
+  },
+  "cards": {
+    "navigator": "浏览器指纹",
+    "screen": "屏幕指纹",
+    "canvas": "Canvas 指纹",
+    "webgl": "WebGL 指纹",
+    "webgpu": "WebGPU 指纹",
+    "audio": "音频指纹",
+    "fonts": "字体指纹",
+    "mediaDevices": "媒体设备指纹",
+    "webrtc": "WebRTC 指纹",
+    "timezone": "时区指纹",
+    "geolocation": "地理位置指纹",
+    "permissions": "权限指纹",
+    "clientRects": "客户端矩形指纹",
+    "speechVoices": "语音合成指纹",
+    "automation": "自动化检测指纹",
+    "uiLanguage": "界面语言指纹",
+    "cpu": "CPU",
+    "memory": "内存",
+    "memoryNote": "浏览器为隐私保护会返回不精确的值（向下舍入到最近的2的幂次方，通常限制在2-32GB范围内）",
+    "dnt": "Do Not Track"
+  }
+}

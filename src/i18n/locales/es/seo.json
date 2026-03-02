@@ -1,0 +1,14 @@
+{
+  "seo": {
+    "home": {
+      "title": "Herramienta de Verificación de Huellas Digitales CflyPrism - Detección de Huellas Digitales del Navegador",
+      "description": "Herramienta profesional de detección y verificación de huellas digitales del navegador que admite detección multidimensional de huellas digitales incluyendo Canvas, WebGL, Audio, Fuentes, Red y más",
+      "keywords": "huella digital del navegador,detección de huellas digitales,verificación de huellas digitales,huella digital Canvas,huella digital WebGL,huella digital Audio,huella digital de fuente,huella digital de red,protección de privacidad"
+    },
+    "history": {
+      "title": "Historial - Herramienta de Verificación de Huellas Digitales CflyPrism",
+      "description": "Ver resultados de detección de huellas digitales del navegador anteriores e historial",
+      "keywords": "historial de huellas digitales,historial de detección,registros de historial,datos de huellas digitales"
+    }
+  }
+}

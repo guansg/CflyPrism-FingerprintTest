@@ -1,0 +1,307 @@
+{
+  "tcp": {
+    "tcpLayerInfo": "TCP 层信息",
+    "unavailable": "TCP 指纹信息暂不可用（需配置后端服务并确保有访问请求）"
+  },
+  "plugins": {
+    "pluginList": "插件列表",
+    "pluginCount": "共 {{count}} 个插件",
+    "filename": "文件",
+    "mimeTypeCount": "MIME 类型数",
+    "noPlugins": "未检测到插件",
+    "mimeTypeList": "MIME 类型列表",
+    "mimeTypeCountText": "共 {{count}} 个 MIME 类型",
+    "noDescription": "无描述",
+    "suffixes": "后缀",
+    "plugin": "插件",
+    "noMimeTypes": "未检测到 MIME 类型"
+  },
+  "network": {
+    "clientInfo": "浏览器端信息",
+    "serverInfo": "服务器端网络信息",
+    "tcpFingerprint": "TCP 指纹",
+    "serverInfoUnavailable": "未能获取服务器端信息（需配置后端服务）",
+    "connectionInfo": "连接信息",
+    "effectiveType": "有效连接类型",
+    "downlink": "下行带宽",
+    "rtt": "往返时延",
+    "saveData": "数据节省模式",
+    "clientIP": "客户端 IP",
+    "httpVersion": "HTTP 版本",
+    "tlsVersion": "TLS 版本",
+    "tlsCipherSuite": "TLS 加密套件",
+    "tlsFingerprint": "TLS 指纹",
+    "cipherSuites": "加密套件",
+    "extensions": "扩展",
+    "alpnProtocols": "ALPN 协议",
+    "windowSize": "窗口大小",
+    "mss": "最大报文段长度",
+    "windowScale": "窗口缩放因子",
+    "ttl": "生存时间 (TTL)",
+    "timestamp": "时间戳选项",
+    "timestampValue": "时间戳值 (TS val)",
+    "timestampEcr": "时间戳回显 (TS ecr)",
+    "sack": "选择性确认 (SACK)",
+    "tcpFlags": "TCP 标志位",
+    "optionsOrder": "TCP 选项顺序",
+    "initialSeq": "初始序列号",
+    "ipLayerInfo": "IP 层信息",
+    "ipId": "IP 标识符",
+    "tos": "服务类型 (TOS)",
+    "ipFlags": "IP 标志位",
+    "df": "禁止分片 (DF)",
+    "ipLength": "IP 包长度",
+    "tcpFingerprintString": "综合指纹",
+    "fingerprint": "指纹字符串"
+  },
+  "http": {
+    "http2": "HTTP/2",
+    "supported": "是否支持",
+    "clientHeaders": "浏览器端请求头",
+    "serverHeaders": "服务器端请求头",
+    "serverHeadersUnavailable": "未能获取服务器端信息（需配置后端服务）",
+    "headers": {
+      "acceptLanguage": "接受语言",
+      "acceptEncoding": "接受编码",
+      "userAgent": "用户代理",
+      "secChUa": "客户端提示 UA",
+      "secChUaPlatform": "客户端提示平台",
+      "secChUaMobile": "客户端提示移动端",
+      "secFetchSite": "获取站点",
+      "secFetchMode": "获取模式",
+      "secFetchUser": "获取用户",
+      "secFetchDest": "获取目标",
+      "referer": "来源页面",
+      "origin": "来源域",
+      "xForwardedFor": "转发 IP",
+      "xRealIP": "真实 IP"
+    }
+  },
+  "mediaDevices": {
+    "deviceCount": "检测到的设备数量",
+    "permissionStatus": "权限状态",
+    "permissionNotRequested": "未请求权限",
+    "permissionGranted": "权限已授予",
+    "permissionDenied": "权限被拒绝",
+    "permissionDeniedTip": "提示: 权限被拒绝时，设备列表可能为空或不完整",
+    "deviceList": "设备列表",
+    "deviceLabel": "设备 {{index}}",
+    "type": "类型",
+    "id": "ID",
+    "noPermission": "无权限"
+  },
+  "webrtc": {
+    "totalIPs": "检测到的 IP 总数",
+    "publicIPCount": "公网 IP 数量",
+    "privateIPCount": "私有 IP 数量",
+    "linkLocalIPCount": "链路本地 IP 数量",
+    "publicIPLeak": "公网 IP 泄露检测",
+    "publicIPLeakMessage": "检测到 {{count}} 个公网 IP 地址，这会暴露您的真实 IP",
+    "leakedPublicIP": "泄露的公网 IP",
+    "ipDetails": "IP 地址详情",
+    "noIPLeak": "未检测到 IP 泄露（可能是 WebRTC 已禁用或未触发连接）",
+    "publicIP": "公网 IP",
+    "privateIP": "私有 IP",
+    "linkLocal": "链路本地",
+    "loopback": "回环"
+  },
+  "browserInfo": {
+    "product": "产品",
+    "appCodeName": "应用代号",
+    "appName": "应用名称",
+    "appVersion": "应用版本",
+    "productSub": "产品子版本",
+    "vendor": "供应商",
+    "vendorSub": "供应商子版本",
+    "warning": "⚠️ 注意: 这些属性通常用于浏览器识别，现代浏览器可能返回标准化的值。某些反指纹浏览器可能会修改这些值。"
+  },
+  "uiLanguage": {
+    "locale": "区域设置",
+    "dateTimeLocale": "日期时间区域",
+    "numberLocale": "数字区域",
+    "collatorLocale": "排序区域",
+    "relativeTimeLocale": "相对时间区域",
+    "tip": "💡 提示: UI 语言通常反映浏览器的界面语言设置，通过 Intl API 可以检测到。如果这些值不一致，可能表示浏览器配置异常。"
+  },
+  "permissions": {
+    "geolocation": "地理位置",
+    "notifications": "通知",
+    "camera": "摄像头",
+    "microphone": "麦克风",
+    "clipboardRead": "剪贴板读取",
+    "clipboardWrite": "剪贴板写入",
+    "status": {
+      "granted": "已授权",
+      "denied": "已拒绝",
+      "prompt": "等待询问",
+      "unknown": "未知"
+    }
+  },
+  "geolocation": {
+    "latitude": "纬度",
+    "longitude": "经度",
+    "accuracy": "精度",
+    "permissionStatus": "权限状态"
+  },
+  "automation": {
+    "detectionStatus": "检测状态",
+    "detected": "检测到自动化",
+    "clean": "正常",
+    "webdriver": "navigator.webdriver",
+    "chromeRuntime": "window.chrome.runtime",
+    "hasAutomationFlag": "存在自动化标识",
+    "hasChromeAutomation": "存在 Chrome 自动化",
+    "otherFlags": "其他标识"
+  },
+  "clientRects": {
+    "hash": "哈希值",
+    "rectsCount": "矩形数量",
+    "rectsDetails": "矩形详情",
+    "rectLabel": "矩形 {{index}}"
+  },
+  "speechVoices": {
+    "count": "数量",
+    "voicesList": "语音列表",
+    "default": "(默认)",
+    "local": "本地"
+  },
+  "webgpu": {
+    "available": "是否可用",
+    "adapterInfo": "适配器信息",
+    "vendor": "供应商",
+    "architecture": "架构",
+    "device": "设备",
+    "description": "描述",
+    "features": "特性"
+  },
+  "canvas": {
+    "hash": "哈希值",
+    "imagePreview": "Canvas 图像预览"
+  },
+  "fonts": {
+    "fontCount": "检测到的字体数量",
+    "fontList": "字体列表",
+    "libraryOnly": "仅显示检测库中的字体（若已安装），非用户设备上实际拥有的全部字体"
+  },
+  "webgl": {
+    "vendor": "供应商",
+    "renderer": "渲染器",
+    "version": "版本",
+    "shadingLanguageVersion": "着色语言版本",
+    "hash": "哈希值",
+    "extensionsCount": "扩展数量",
+    "parameters": "参数",
+    "imagePreview": "WebGL 图像预览"
+  },
+  "navigator": {
+    "userAgent": "用户代理",
+    "platform": "平台",
+    "language": "语言",
+    "languages": "语言列表",
+    "vendor": "供应商",
+    "hardwareConcurrency": "硬件并发数",
+    "deviceMemory": "设备内存",
+    "maxTouchPoints": "最大触摸点数",
+    "cookieEnabled": "Cookie 启用",
+    "doNotTrack": "禁止追踪",
+    "userAgentData": "用户代理数据",
+    "mobile": "移动设备",
+    "brands": "浏览器品牌",
+    "highEntropyValues": "高熵值",
+    "architecture": "架构",
+    "bitness": "位数",
+    "platformVersion": "平台版本",
+    "isWow64": "WOW64 模式",
+    "formFactors": "外形因素",
+    "model": "型号",
+    "fullVersionList": "完整版本列表"
+  },
+  "screen": {
+    "width": "宽度",
+    "height": "高度",
+    "availWidth": "可用宽度",
+    "availHeight": "可用高度",
+    "colorDepth": "色深",
+    "pixelDepth": "像素深度",
+    "devicePixelRatio": "设备像素比"
+  },
+  "audio": {
+    "hash": "哈希值",
+    "contextId": "上下文 ID"
+  },
+  "timezone": {
+    "timezone": "时区",
+    "offset": "偏移量"
+  },
+  "math": {
+    "hash": "哈希值",
+    "values": "计算值",
+    "tip": "💡 提示: 不同浏览器/操作系统的数学函数实现存在微小差异，这些差异可以用来生成指纹。"
+  },
+  "fontPreferences": {
+    "hash": "哈希值",
+    "sizes": "字体尺寸",
+    "default": "默认",
+    "apple": "Apple 系统",
+    "serif": "衬线体",
+    "sans": "无衬线体",
+    "mono": "等宽体",
+    "min": "最小字体",
+    "system": "系统 UI"
+  },
+  "touchSupport": {
+    "maxTouchPoints": "最大触摸点数",
+    "touchEvent": "TouchEvent 支持",
+    "touchStart": "ontouchstart 支持"
+  },
+  "vendorFlavors": {
+    "flavors": "浏览器特有对象",
+    "tip": "💡 提示: 不同浏览器有不同的全局对象，可以用来识别浏览器类型。"
+  },
+  "colorGamut": {
+    "colorGamut": "支持的色域",
+    "srgb": "sRGB (标准)",
+    "p3": "P3 (广色域)",
+    "rec2020": "Rec.2020 (超广色域)",
+    "none": "未检测到"
+  },
+  "architecture": {
+    "value": "检测值",
+    "architecture": "推断架构",
+    "x86": "x86/x86-64",
+    "arm": "ARM",
+    "unknown": "未知"
+  },
+  "tls": {
+    "basicInfo": "基本信息",
+    "version": "TLS 版本",
+    "recordVersion": "Record 版本",
+    "supportedVersions": "支持的版本",
+    "ja3Fingerprint": "JA3 指纹",
+    "cipherSuites": "加密套件",
+    "extensionInfo": "扩展信息",
+    "extensionTypes": "扩展类型",
+    "signatureAlgorithms": "签名算法",
+    "supportedGroups": "椭圆曲线组",
+    "keyShareGroups": "Key Share 组",
+    "alpnProtocols": "ALPN 协议",
+    "otherSettings": "其他设置",
+    "compressionMethod": "压缩方法",
+    "certCompression": "证书压缩",
+    "ecPointFormat": "EC Point 格式",
+    "sessionIdLength": "Session ID 长度"
+  },
+  "screenFrame": {
+    "systemFrame": "系统边框",
+    "browserFrame": "浏览器边框",
+    "frameTop": "顶部边框",
+    "frameLeft": "左侧边框",
+    "frameBottom": "底部边框",
+    "frameRight": "右侧边框",
+    "windowPosition": "窗口位置",
+    "screenX": "屏幕 X",
+    "screenY": "屏幕 Y",
+    "browserFrameWidth": "浏览器边框宽度",
+    "browserFrameHeight": "浏览器边框高度"
+  }
+}

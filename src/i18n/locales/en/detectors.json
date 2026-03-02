@@ -1,0 +1,307 @@
+{
+  "tcp": {
+    "tcpLayerInfo": "TCP Layer Info",
+    "unavailable": "TCP fingerprint unavailable (backend service required with active requests)"
+  },
+  "plugins": {
+    "pluginList": "Plugin List",
+    "pluginCount": "{{count}} plugins",
+    "filename": "File",
+    "mimeTypeCount": "MIME Types",
+    "noPlugins": "No plugins detected",
+    "mimeTypeList": "MIME Types List",
+    "mimeTypeCountText": "{{count}} MIME types",
+    "noDescription": "No description",
+    "suffixes": "Suffixes",
+    "plugin": "Plugin",
+    "noMimeTypes": "No MIME types detected"
+  },
+  "network": {
+    "clientInfo": "Client Info",
+    "serverInfo": "Server Network Info",
+    "tcpFingerprint": "TCP Fingerprint",
+    "serverInfoUnavailable": "Unable to fetch server info (backend service required)",
+    "connectionInfo": "Connection Info",
+    "effectiveType": "Effective Type",
+    "downlink": "Downlink",
+    "rtt": "RTT",
+    "saveData": "Save Data",
+    "clientIP": "Client IP",
+    "httpVersion": "HTTP Version",
+    "tlsVersion": "TLS Version",
+    "tlsCipherSuite": "TLS Cipher Suite",
+    "tlsFingerprint": "TLS Fingerprint",
+    "cipherSuites": "Cipher Suites",
+    "extensions": "Extensions",
+    "alpnProtocols": "ALPN Protocols",
+    "windowSize": "Window Size",
+    "mss": "MSS (Max Segment Size)",
+    "windowScale": "Window Scale",
+    "ttl": "TTL (Time to Live)",
+    "timestamp": "Timestamp Option",
+    "timestampValue": "Timestamp Value (TS val)",
+    "timestampEcr": "Timestamp Echo Reply (TS ecr)",
+    "sack": "SACK (Selective ACK)",
+    "tcpFlags": "TCP Flags",
+    "optionsOrder": "TCP Options Order",
+    "initialSeq": "Initial Sequence Number",
+    "ipLayerInfo": "IP Layer Info",
+    "ipId": "IP Identifier",
+    "tos": "Type of Service (TOS)",
+    "ipFlags": "IP Flags",
+    "df": "Don't Fragment (DF)",
+    "ipLength": "IP Packet Length",
+    "tcpFingerprintString": "Fingerprint String",
+    "fingerprint": "Fingerprint"
+  },
+  "http": {
+    "http2": "HTTP/2",
+    "supported": "Supported",
+    "clientHeaders": "Client Headers",
+    "serverHeaders": "Server Headers",
+    "serverHeadersUnavailable": "Unable to fetch server headers (backend service required)",
+    "headers": {
+      "acceptLanguage": "Accept-Language",
+      "acceptEncoding": "Accept-Encoding",
+      "userAgent": "User-Agent",
+      "secChUa": "Sec-CH-UA",
+      "secChUaPlatform": "Sec-CH-UA-Platform",
+      "secChUaMobile": "Sec-CH-UA-Mobile",
+      "secFetchSite": "Sec-Fetch-Site",
+      "secFetchMode": "Sec-Fetch-Mode",
+      "secFetchUser": "Sec-Fetch-User",
+      "secFetchDest": "Sec-Fetch-Dest",
+      "referer": "Referer",
+      "origin": "Origin",
+      "xForwardedFor": "X-Forwarded-For",
+      "xRealIP": "X-Real-IP"
+    }
+  },
+  "mediaDevices": {
+    "deviceCount": "Detected Device Count",
+    "permissionStatus": "Permission Status",
+    "permissionNotRequested": "Permission Not Requested",
+    "permissionGranted": "Permission Granted",
+    "permissionDenied": "Permission Denied",
+    "permissionDeniedTip": "Tip: When permission is denied, the device list may be empty or incomplete",
+    "deviceList": "Device List",
+    "deviceLabel": "Device {{index}}",
+    "type": "Type",
+    "id": "ID",
+    "noPermission": "No Permission"
+  },
+  "webrtc": {
+    "totalIPs": "Total IPs Detected",
+    "publicIPCount": "Public IP Count",
+    "privateIPCount": "Private IP Count",
+    "linkLocalIPCount": "Link Local IP Count",
+    "publicIPLeak": "Public IP Leak Detection",
+    "publicIPLeakMessage": "Detected {{count}} public IP address(es), which exposes your real IP",
+    "leakedPublicIP": "Leaked Public IP",
+    "ipDetails": "IP Address Details",
+    "noIPLeak": "No IP leak detected (WebRTC may be disabled or connection not triggered)",
+    "publicIP": "Public IP",
+    "privateIP": "Private IP",
+    "linkLocal": "Link Local",
+    "loopback": "Loopback"
+  },
+  "browserInfo": {
+    "product": "Product",
+    "appCodeName": "App Code Name",
+    "appName": "App Name",
+    "appVersion": "App Version",
+    "productSub": "Product Sub",
+    "vendor": "Vendor",
+    "vendorSub": "Vendor Sub",
+    "warning": "⚠️ Note: These properties are typically used for browser identification. Modern browsers may return standardized values. Some anti-fingerprinting browsers may modify these values."
+  },
+  "uiLanguage": {
+    "locale": "Locale",
+    "dateTimeLocale": "DateTime Locale",
+    "numberLocale": "Number Locale",
+    "collatorLocale": "Collator Locale",
+    "relativeTimeLocale": "RelativeTime Locale",
+    "tip": "💡 Tip: UI Language typically reflects the browser's interface language settings, detectable via the Intl API. If these values are inconsistent, it may indicate abnormal browser configuration."
+  },
+  "permissions": {
+    "geolocation": "Geolocation",
+    "notifications": "Notifications",
+    "camera": "Camera",
+    "microphone": "Microphone",
+    "clipboardRead": "Clipboard Read",
+    "clipboardWrite": "Clipboard Write",
+    "status": {
+      "granted": "granted",
+      "denied": "denied",
+      "prompt": "prompt",
+      "unknown": "unknown"
+    }
+  },
+  "geolocation": {
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "accuracy": "Accuracy",
+    "permissionStatus": "Permission Status"
+  },
+  "automation": {
+    "detectionStatus": "Detection Status",
+    "detected": "Detected",
+    "clean": "Clean",
+    "webdriver": "navigator.webdriver",
+    "chromeRuntime": "window.chrome.runtime",
+    "hasAutomationFlag": "Has Automation Flag",
+    "hasChromeAutomation": "Has Chrome Automation",
+    "otherFlags": "Other Flags"
+  },
+  "clientRects": {
+    "hash": "Hash",
+    "rectsCount": "Rects Count",
+    "rectsDetails": "Rects Details",
+    "rectLabel": "Rect {{index}}"
+  },
+  "speechVoices": {
+    "count": "Count",
+    "voicesList": "Voices List",
+    "default": "(Default)",
+    "local": "Local"
+  },
+  "webgpu": {
+    "available": "Available",
+    "adapterInfo": "Adapter Info",
+    "vendor": "Vendor",
+    "architecture": "Architecture",
+    "device": "Device",
+    "description": "Description",
+    "features": "Features"
+  },
+  "canvas": {
+    "hash": "Hash",
+    "imagePreview": "Canvas Image Preview"
+  },
+  "fonts": {
+    "fontCount": "Detected Font Count",
+    "fontList": "Font List",
+    "libraryOnly": "Only shows fonts from the detection library (if installed). Not all fonts actually installed on your device."
+  },
+  "webgl": {
+    "vendor": "Vendor",
+    "renderer": "Renderer",
+    "version": "Version",
+    "shadingLanguageVersion": "Shading Language Version",
+    "hash": "Hash",
+    "extensionsCount": "Extensions Count",
+    "parameters": "Parameters",
+    "imagePreview": "WebGL Image Preview"
+  },
+  "navigator": {
+    "userAgent": "User-Agent",
+    "platform": "Platform",
+    "language": "Language",
+    "languages": "Languages",
+    "vendor": "Vendor",
+    "hardwareConcurrency": "Hardware Concurrency",
+    "deviceMemory": "Device Memory",
+    "maxTouchPoints": "Max Touch Points",
+    "cookieEnabled": "Cookie Enabled",
+    "doNotTrack": "Do Not Track",
+    "userAgentData": "User-Agent Data",
+    "mobile": "Mobile",
+    "brands": "Brands",
+    "highEntropyValues": "High Entropy Values",
+    "architecture": "Architecture",
+    "bitness": "Bitness",
+    "platformVersion": "Platform Version",
+    "isWow64": "Is WOW64",
+    "formFactors": "Form Factors",
+    "model": "Model",
+    "fullVersionList": "Full Version List"
+  },
+  "screen": {
+    "width": "Width",
+    "height": "Height",
+    "availWidth": "Avail Width",
+    "availHeight": "Avail Height",
+    "colorDepth": "Color Depth",
+    "pixelDepth": "Pixel Depth",
+    "devicePixelRatio": "Device Pixel Ratio"
+  },
+  "audio": {
+    "hash": "Hash",
+    "contextId": "Context ID"
+  },
+  "timezone": {
+    "timezone": "Timezone",
+    "offset": "Offset"
+  },
+  "math": {
+    "hash": "Hash",
+    "values": "Values",
+    "tip": "💡 Tip: Different browsers/operating systems have slight differences in math function implementations, which can be used to generate fingerprints."
+  },
+  "fontPreferences": {
+    "hash": "Hash",
+    "sizes": "Font Sizes",
+    "default": "Default",
+    "apple": "Apple System",
+    "serif": "Serif",
+    "sans": "Sans-Serif",
+    "mono": "Monospace",
+    "min": "Min Font",
+    "system": "System UI"
+  },
+  "touchSupport": {
+    "maxTouchPoints": "Max Touch Points",
+    "touchEvent": "TouchEvent Support",
+    "touchStart": "ontouchstart Support"
+  },
+  "vendorFlavors": {
+    "flavors": "Browser-specific Objects",
+    "tip": "💡 Tip: Different browsers have different global objects, which can be used to identify browser types."
+  },
+  "colorGamut": {
+    "colorGamut": "Supported Color Gamut",
+    "srgb": "sRGB (Standard)",
+    "p3": "P3 (Wide Gamut)",
+    "rec2020": "Rec.2020 (Ultra Wide Gamut)",
+    "none": "Not detected"
+  },
+  "architecture": {
+    "value": "Detection Value",
+    "architecture": "Inferred Architecture",
+    "x86": "x86/x86-64",
+    "arm": "ARM",
+    "unknown": "Unknown"
+  },
+  "tls": {
+    "basicInfo": "Basic Info",
+    "version": "TLS Version",
+    "recordVersion": "Record Version",
+    "supportedVersions": "Supported Versions",
+    "ja3Fingerprint": "JA3 Fingerprint",
+    "cipherSuites": "Cipher Suites",
+    "extensionInfo": "Extension Info",
+    "extensionTypes": "Extension Types",
+    "signatureAlgorithms": "Signature Algorithms",
+    "supportedGroups": "Supported Groups",
+    "keyShareGroups": "Key Share Groups",
+    "alpnProtocols": "ALPN Protocols",
+    "otherSettings": "Other Settings",
+    "compressionMethod": "Compression Method",
+    "certCompression": "Certificate Compression",
+    "ecPointFormat": "EC Point Format",
+    "sessionIdLength": "Session ID Length"
+  },
+  "screenFrame": {
+    "systemFrame": "System Frame",
+    "browserFrame": "Browser Frame",
+    "frameTop": "Top Frame",
+    "frameLeft": "Left Frame",
+    "frameBottom": "Bottom Frame",
+    "frameRight": "Right Frame",
+    "windowPosition": "Window Position",
+    "screenX": "Screen X",
+    "screenY": "Screen Y",
+    "browserFrameWidth": "Browser Frame Width",
+    "browserFrameHeight": "Browser Frame Height"
+  }
+}

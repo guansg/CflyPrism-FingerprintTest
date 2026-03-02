@@ -1,0 +1,288 @@
+{
+  "tcp": {
+    "tcpLayerInfo": "TCP レイヤー情報",
+    "unavailable": "TCP フィンガープリント情報は利用できません（バックエンドサービスの設定とアクティブなリクエストが必要です）"
+  },
+  "plugins": {
+    "pluginList": "プラグインリスト",
+    "pluginCount": "計 {{count}} 個のプラグイン",
+    "filename": "ファイル",
+    "mimeTypeCount": "MIME タイプ数",
+    "noPlugins": "プラグインが検出されませんでした",
+    "mimeTypeList": "MIME タイプリスト",
+    "mimeTypeCountText": "計 {{count}} 個の MIME タイプ",
+    "noDescription": "説明なし",
+    "suffixes": "サフィックス",
+    "plugin": "プラグイン",
+    "noMimeTypes": "MIME タイプが検出されませんでした"
+  },
+  "network": {
+    "clientInfo": "ブラウザ側情報",
+    "serverInfo": "サーバー側ネットワーク情報",
+    "tcpFingerprint": "TCP フィンガープリント",
+    "serverInfoUnavailable": "サーバー側情報を取得できませんでした（バックエンドサービスの設定が必要です）",
+    "connectionInfo": "接続情報",
+    "effectiveType": "有効接続タイプ",
+    "downlink": "ダウンリンク帯域幅",
+    "rtt": "往復遅延",
+    "saveData": "データセーバーモード",
+    "clientIP": "クライアント IP",
+    "httpVersion": "HTTP バージョン",
+    "tlsVersion": "TLS バージョン",
+    "tlsCipherSuite": "TLS 暗号スイート",
+    "tlsFingerprint": "TLS フィンガープリント",
+    "cipherSuites": "暗号スイート",
+    "extensions": "拡張機能",
+    "alpnProtocols": "ALPN プロトコル",
+    "windowSize": "ウィンドウサイズ",
+    "mss": "最大セグメントサイズ (MSS)",
+    "windowScale": "ウィンドウスケール係数",
+    "ttl": "生存時間 (TTL)",
+    "timestamp": "タイムスタンプオプション",
+    "timestampValue": "タイムスタンプ値 (TS val)",
+    "timestampEcr": "タイムスタンプエコー (TS ecr)",
+    "sack": "選択的確認応答 (SACK)",
+    "tcpFlags": "TCP フラグ",
+    "optionsOrder": "TCP オプション順序",
+    "initialSeq": "初期シーケンス番号",
+    "ipLayerInfo": "IP 層情報",
+    "ipId": "IP 識別子",
+    "tos": "サービスタイプ (TOS)",
+    "ipFlags": "IP フラグ",
+    "df": "フラグメント禁止 (DF)",
+    "ipLength": "IP パケット長",
+    "tcpFingerprintString": "フィンガープリント文字列",
+    "fingerprint": "フィンガープリント"
+  },
+  "http": {
+    "http2": "HTTP/2",
+    "supported": "サポート状況",
+    "clientHeaders": "ブラウザ側リクエストヘッダー",
+    "serverHeaders": "サーバー側リクエストヘッダー",
+    "serverHeadersUnavailable": "サーバー側情報を取得できませんでした（バックエンドサービスの設定が必要です）",
+    "headers": {
+      "acceptLanguage": "受け入れ言語",
+      "acceptEncoding": "受け入れエンコーディング",
+      "userAgent": "ユーザーエージェント",
+      "secChUa": "クライアントヒント UA",
+      "secChUaPlatform": "クライアントヒントプラットフォーム",
+      "secChUaMobile": "クライアントヒントモバイル",
+      "secFetchSite": "取得サイト",
+      "secFetchMode": "取得モード",
+      "secFetchUser": "取得ユーザー",
+      "secFetchDest": "取得先",
+      "referer": "リファラー",
+      "origin": "オリジン",
+      "xForwardedFor": "転送 IP",
+      "xRealIP": "実際の IP"
+    }
+  },
+  "mediaDevices": {
+    "deviceCount": "検出されたデバイス数",
+    "permissionStatus": "権限ステータス",
+    "permissionNotRequested": "権限がリクエストされていません",
+    "permissionGranted": "権限が付与されました",
+    "permissionDenied": "権限が拒否されました",
+    "permissionDeniedTip": "ヒント：権限が拒否された場合、デバイスリストが空または不完全になる可能性があります",
+    "deviceList": "デバイスリスト",
+    "deviceLabel": "デバイス {{index}}",
+    "type": "タイプ",
+    "id": "ID",
+    "noPermission": "権限なし"
+  },
+  "webrtc": {
+    "totalIPs": "検出された IP の総数",
+    "publicIPCount": "パブリック IP 数",
+    "privateIPCount": "プライベート IP 数",
+    "linkLocalIPCount": "リンクローカル IP 数",
+    "publicIPLeak": "パブリック IP 漏洩検出",
+    "publicIPLeakMessage": "{{count}} 個のパブリック IP アドレスが検出されました。これにより実際の IP が公開されます",
+    "leakedPublicIP": "漏洩したパブリック IP",
+    "ipDetails": "IP アドレス詳細",
+    "noIPLeak": "IP 漏洩が検出されませんでした（WebRTC が無効になっているか、接続がトリガーされていない可能性があります）",
+    "publicIP": "パブリック IP",
+    "privateIP": "プライベート IP",
+    "linkLocal": "リンクローカル",
+    "loopback": "ループバック"
+  },
+  "browserInfo": {
+    "product": "製品",
+    "appCodeName": "アプリコード名",
+    "appName": "アプリ名",
+    "appVersion": "アプリバージョン",
+    "productSub": "製品サブバージョン",
+    "vendor": "ベンダー",
+    "vendorSub": "ベンダーサブバージョン",
+    "warning": "⚠️ 注意：これらのプロパティは通常、ブラウザの識別に使用されます。モダンブラウザは標準化された値を返す場合があります。一部のアンチフィンガープリントブラウザはこれらの値を変更する可能性があります。"
+  },
+  "uiLanguage": {
+    "locale": "ロケール設定",
+    "dateTimeLocale": "日時ロケール",
+    "numberLocale": "数値ロケール",
+    "collatorLocale": "照合ロケール",
+    "relativeTimeLocale": "相対時間ロケール",
+    "tip": "💡 ヒント：UI 言語は通常、ブラウザのインターフェース言語設定を反映し、Intl API で検出できます。これらの値が一貫していない場合、ブラウザ設定の異常を示している可能性があります。"
+  },
+  "permissions": {
+    "geolocation": "位置情報",
+    "notifications": "通知",
+    "camera": "カメラ",
+    "microphone": "マイク",
+    "clipboardRead": "クリップボード読み取り",
+    "clipboardWrite": "クリップボード書き込み",
+    "status": {
+      "granted": "許可済み",
+      "denied": "拒否済み",
+      "prompt": "確認待ち",
+      "unknown": "不明"
+    }
+  },
+  "geolocation": {
+    "latitude": "緯度",
+    "longitude": "経度",
+    "accuracy": "精度",
+    "permissionStatus": "権限ステータス"
+  },
+  "automation": {
+    "detectionStatus": "検出ステータス",
+    "detected": "自動化を検出",
+    "clean": "正常",
+    "webdriver": "navigator.webdriver",
+    "chromeRuntime": "window.chrome.runtime",
+    "hasAutomationFlag": "自動化フラグあり",
+    "hasChromeAutomation": "Chrome 自動化あり",
+    "otherFlags": "その他のフラグ"
+  },
+  "clientRects": {
+    "hash": "ハッシュ値",
+    "rectsCount": "矩形数",
+    "rectsDetails": "矩形詳細",
+    "rectLabel": "矩形 {{index}}"
+  },
+  "speechVoices": {
+    "count": "数量",
+    "voicesList": "音声リスト",
+    "default": "(デフォルト)",
+    "local": "ローカル"
+  },
+  "webgpu": {
+    "available": "利用可能",
+    "adapterInfo": "アダプター情報",
+    "vendor": "ベンダー",
+    "architecture": "アーキテクチャ",
+    "device": "デバイス",
+    "description": "説明",
+    "features": "機能"
+  },
+  "canvas": {
+    "hash": "ハッシュ値",
+    "imagePreview": "Canvas 画像プレビュー"
+  },
+  "fonts": {
+    "fontCount": "検出されたフォント数",
+    "fontList": "フォントリスト",
+    "libraryOnly": "検出ライブラリ内のフォント（インストール済み）のみ表示。デバイスに実際にインストールされている全フォントではありません"
+  },
+  "webgl": {
+    "vendor": "ベンダー",
+    "renderer": "レンダラー",
+    "version": "バージョン",
+    "shadingLanguageVersion": "シェーディング言語バージョン",
+    "hash": "ハッシュ値",
+    "extensionsCount": "拡張機能数",
+    "parameters": "パラメーター",
+    "imagePreview": "WebGL 画像プレビュー"
+  },
+  "navigator": {
+    "userAgent": "ユーザーエージェント",
+    "platform": "プラットフォーム",
+    "language": "言語",
+    "languages": "言語リスト",
+    "vendor": "ベンダー",
+    "hardwareConcurrency": "ハードウェア並行数",
+    "deviceMemory": "デバイスメモリ",
+    "maxTouchPoints": "最大タッチポイント数",
+    "cookieEnabled": "Cookie 有効",
+    "doNotTrack": "トラッキング拒否",
+    "userAgentData": "ユーザーエージェントデータ",
+    "mobile": "モバイルデバイス",
+    "brands": "ブラウザブランド",
+    "highEntropyValues": "高エントロピー値",
+    "architecture": "アーキテクチャ",
+    "bitness": "ビット数",
+    "platformVersion": "プラットフォームバージョン",
+    "isWow64": "WOW64 モード",
+    "formFactors": "フォームファクター",
+    "model": "モデル",
+    "fullVersionList": "完全バージョンリスト"
+  },
+  "screen": {
+    "width": "幅",
+    "height": "高さ",
+    "availWidth": "利用可能幅",
+    "availHeight": "利用可能高さ",
+    "colorDepth": "色深度",
+    "pixelDepth": "ピクセル深度",
+    "devicePixelRatio": "デバイスピクセル比"
+  },
+  "audio": {
+    "hash": "ハッシュ値",
+    "contextId": "コンテキスト ID"
+  },
+  "timezone": {
+    "timezone": "タイムゾーン",
+    "offset": "オフセット"
+  },
+  "math": {
+    "hash": "ハッシュ値",
+    "values": "計算値",
+    "tip": "💡 ヒント：異なるブラウザ/OS の数学関数の実装にはわずかな違いがあり、これらの違いをフィンガープリントの生成に使用できます。"
+  },
+  "fontPreferences": {
+    "hash": "ハッシュ値",
+    "sizes": "フォントサイズ",
+    "default": "デフォルト",
+    "apple": "Apple システム",
+    "serif": "セリフ体",
+    "sans": "サンセリフ体",
+    "mono": "等幅フォント",
+    "min": "最小フォント",
+    "system": "システム UI"
+  },
+  "touchSupport": {
+    "maxTouchPoints": "最大タッチポイント数",
+    "touchEvent": "TouchEvent サポート",
+    "touchStart": "ontouchstart サポート"
+  },
+  "vendorFlavors": {
+    "flavors": "ブラウザ固有オブジェクト",
+    "tip": "💡 ヒント：異なるブラウザには異なるグローバルオブジェクトがあり、ブラウザの種類を識別するために使用できます。"
+  },
+  "colorGamut": {
+    "colorGamut": "サポートされる色域",
+    "srgb": "sRGB（標準）",
+    "p3": "P3（広色域）",
+    "rec2020": "Rec.2020（超広色域）",
+    "none": "検出されませんでした"
+  },
+  "architecture": {
+    "value": "検出値",
+    "architecture": "推測アーキテクチャ",
+    "x86": "x86/x86-64",
+    "arm": "ARM",
+    "unknown": "不明"
+  },
+  "screenFrame": {
+    "systemFrame": "システムフレーム",
+    "browserFrame": "ブラウザフレーム",
+    "frameTop": "上部フレーム",
+    "frameLeft": "左側フレーム",
+    "frameBottom": "下部フレーム",
+    "frameRight": "右側フレーム",
+    "windowPosition": "ウィンドウ位置",
+    "screenX": "画面 X",
+    "screenY": "画面 Y",
+    "browserFrameWidth": "ブラウザフレーム幅",
+    "browserFrameHeight": "ブラウザフレーム高さ"
+  }
+}

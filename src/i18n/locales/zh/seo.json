@@ -1,0 +1,14 @@
+{
+  "seo": {
+    "home": {
+      "title": "CflyPrism 指纹验证工具 - 浏览器指纹检测",
+      "description": "专业的浏览器指纹检测和验证工具，支持多维度指纹检测，包括 Canvas、WebGL、Audio、字体、网络等多种指纹类型",
+      "keywords": "浏览器指纹,指纹检测,指纹验证,Canvas指纹,WebGL指纹,Audio指纹,字体指纹,网络指纹,隐私保护"
+    },
+    "history": {
+      "title": "历史记录 - CflyPrism 指纹验证工具",
+      "description": "查看之前的浏览器指纹检测结果和历史记录",
+      "keywords": "指纹历史,检测历史,历史记录,指纹数据"
+    }
+  }
+}

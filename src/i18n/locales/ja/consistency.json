@@ -1,0 +1,32 @@
+{
+  "consistency": {
+    "userAgentVersion": "ユーザーエージェントバージョン一貫性",
+    "screenViewportWidth": "画面/ビューポート幅一貫性",
+    "screenViewportHeight": "画面/ビューポート高さ一貫性",
+    "browserZoom": "ブラウザズームレベル",
+    "languageConsistency": "言語一貫性",
+    "screenAvailArea": "画面利用可能領域妥当性",
+    "colorPixelDepth": "色深度/ピクセル深度一貫性",
+    "automationDetection": "自動化検出",
+    "geolocationPermission": "位置情報権限一貫性",
+    "doNotTrack": "トラッキング拒否一貫性",
+    "messages": {
+      "userAgentVersion": "ユーザーエージェント: {{uaVersion}}, UA データ: {{uaDataVersion}}",
+      "screenViewportWidth": "画面: {{screenWidth}}px (CSS: {{screenWidthCSS}}px), ビューポート: {{viewportWidth}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "screenViewportHeight": "画面: {{screenHeight}}px (CSS: {{screenHeightCSS}}px), ビューポート: {{viewportHeight}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "browserZoom": "{{zoomLabel}}: {{zoom}}%, {{dprLabel}}: {{dpr}}",
+      "languageConsistency": "言語: {{language}}, 言語リスト先頭: {{firstLang}}",
+      "screenAvailArea": "幅: {{width}}/{{availWidth}}, 高さ: {{height}}/{{availHeight}}",
+      "colorPixelDepth": "色深度: {{colorDepth}}, ピクセル深度: {{pixelDepth}}",
+      "automationDetected": "自動化フラグが検出されました",
+      "automationNotDetected": "自動化フラグが検出されませんでした",
+      "geolocationPermission": "位置情報: {{geolocStatus}}, 権限 API: {{permStatus}}",
+      "doNotTrack": "ブラウザ: {{navigatorDNT}}, ネットワーク: {{networkDNT}}"
+    },
+    "labels": {
+      "diff": "差異",
+      "zoom": "ズームレベル",
+      "dpr": "デバイスピクセル比"
+    }
+  }
+}

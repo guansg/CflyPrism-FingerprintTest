@@ -1,0 +1,32 @@
+{
+  "consistency": {
+    "userAgentVersion": "用户代理版本一致性",
+    "screenViewportWidth": "屏幕/视口宽度一致性",
+    "screenViewportHeight": "屏幕/视口高度一致性",
+    "browserZoom": "浏览器缩放级别",
+    "languageConsistency": "语言一致性",
+    "screenAvailArea": "屏幕可用区域合理性",
+    "colorPixelDepth": "色深/像素深度一致性",
+    "automationDetection": "自动化检测",
+    "geolocationPermission": "地理位置权限一致性",
+    "doNotTrack": "禁止追踪一致性",
+    "messages": {
+      "userAgentVersion": "用户代理: {{uaVersion}}, UA 数据: {{uaDataVersion}}",
+      "screenViewportWidth": "屏幕: {{screenWidth}}px (CSS: {{screenWidthCSS}}px), 视口: {{viewportWidth}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "screenViewportHeight": "屏幕: {{screenHeight}}px (CSS: {{screenHeightCSS}}px), 视口: {{viewportHeight}}px ({{diffLabel}}: {{diff}}px){{zoomInfo}}",
+      "browserZoom": "{{zoomLabel}}: {{zoom}}%, {{dprLabel}}: {{dpr}}",
+      "languageConsistency": "语言: {{language}}, 语言列表首项: {{firstLang}}",
+      "screenAvailArea": "宽度: {{width}}/{{availWidth}}, 高度: {{height}}/{{availHeight}}",
+      "colorPixelDepth": "色深: {{colorDepth}}, 像素深度: {{pixelDepth}}",
+      "automationDetected": "检测到自动化标识",
+      "automationNotDetected": "未检测到自动化标识",
+      "geolocationPermission": "地理位置: {{geolocStatus}}, 权限 API: {{permStatus}}",
+      "doNotTrack": "浏览器: {{navigatorDNT}}, 网络: {{networkDNT}}"
+    },
+    "labels": {
+      "diff": "差异",
+      "zoom": "缩放级别",
+      "dpr": "设备像素比"
+    }
+  }
+}

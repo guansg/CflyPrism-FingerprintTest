@@ -1,0 +1,73 @@
+{
+  "detectionOptions": {
+    "title": "Opciones de Detección",
+    "expand": "Expandir Opciones de Detección",
+    "collapse": "Contraer Barra Lateral",
+    "recommended": "Recomendado",
+    "quick": "Detección Rápida",
+    "selectAll": "Seleccionar Todo",
+    "selectNone": "No Seleccionar Nada",
+    "requiresPermission": "Requiere Permiso",
+    "groups": {
+      "basic": "Huella Digital Básica",
+      "hardware": "Información de Hardware",
+      "canvas": "Canvas",
+      "webgl": "WebGL",
+      "audio": "Audio",
+      "networkLayer": "Capa de Red",
+      "antiDetection": "Anti-Detección"
+    },
+    "items": {
+      "navigator": "Información del Navegador",
+      "screen": "Pantalla",
+      "viewport": "Vista",
+      "timezone": "Zona Horaria",
+      "canvas": "Canvas Lienzo",
+      "webgl": "WebGL Gráficos",
+      "webgpu": "WebGPU Gráficos",
+      "audio": "Audio",
+      "fonts": "Fuentes",
+      "mediaDevices": "Dispositivos Multimedia",
+      "speechVoices": "Síntesis de Voz",
+      "webrtc": "WebRTC",
+      "geolocation": "Geolocalización",
+      "permissions": "Permisos",
+      "clientRects": "Rectángulos del Cliente",
+      "automation": "Detección de Automatización",
+      "uiLanguage": "Idioma de Interfaz"
+    }
+  },
+  "fingerprint": {
+    "consistencyCheck": "Verificación de Consistencia",
+    "viewport": "Huella Digital de Vista",
+    "innerSize": "Tamaño Interno",
+    "outerSize": "Tamaño Externo",
+    "clientSize": "Tamaño del Cliente",
+    "zoomInfo": "Información de Zoom",
+    "zoom": "Zoom",
+    "zoomDetectFailed": "No se puede detectar",
+    "dpr": "Relación de Píxeles del Dispositivo"
+  },
+  "cards": {
+    "navigator": "Huella Digital del Navegador",
+    "screen": "Huella Digital de Pantalla",
+    "canvas": "Huella Digital de Canvas",
+    "webgl": "Huella Digital de WebGL",
+    "webgpu": "Huella Digital de WebGPU",
+    "audio": "Huella Digital de Audio",
+    "fonts": "Huella Digital de Fuentes",
+    "mediaDevices": "Huella Digital de Dispositivos Multimedia",
+    "webrtc": "Huella Digital de WebRTC",
+    "timezone": "Huella Digital de Zona Horaria",
+    "geolocation": "Huella Digital de Geolocalización",
+    "permissions": "Huella Digital de Permisos",
+    "clientRects": "Huella Digital de Rectángulos del Cliente",
+    "speechVoices": "Huella Digital de Síntesis de Voz",
+    "automation": "Huella Digital de Detección de Automatización",
+    "uiLanguage": "Huella Digital de Idioma de Interfaz",
+    "cpu": "CPU",
+    "memory": "Memoria",
+    "memoryNote": "Los navegadores devuelven valores imprecisos por privacidad (redondeado a la potencia de 2 más cercana, normalmente limitado al rango de 2-32GB)",
+    "dnt": "Do Not Track"
+  }
+}
