@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://finger.cflyp.com"><strong>🌐 在线体验 »</strong></a>
+</p>
+
+<p align="center">
   <a href="#功能特性">功能特性</a> •
   <a href="#检测项目">检测项目</a> •
   <a href="#快速开始">快速开始</a> •
@@ -122,21 +126,6 @@ npm run preview
 - **路由**: React Router v6
 - **国际化**: react-i18next
 - **图标**: Lucide React
-
-## 项目结构
-
-```
-src/
-├── components/       # UI 组件
-├── config/          # 配置文件
-├── detectors/       # 指纹检测器
-├── i18n/            # 国际化资源
-│   └── locales/     # 语言包 (zh/en/ja/es)
-├── pages/           # 页面组件
-├── stores/          # 状态管理
-├── types/           # TypeScript 类型定义
-└── utils/           # 工具函数
-```
 
 ## 部署
 
