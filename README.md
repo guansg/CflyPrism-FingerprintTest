@@ -1,5 +1,7 @@
 # CflyPrism Fingerprint Test
 
+> 浏览器指纹检测工具，支持多维度检测、一致性校验与指纹对比，帮助验证与调试指纹配置。
+
 <p align="center">
   Built by the team behind <a href="https://cflyp.com"><strong>CflyPrism Fingerprint Browser</strong></a>
 </p>
